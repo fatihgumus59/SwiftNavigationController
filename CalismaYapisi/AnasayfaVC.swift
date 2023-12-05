@@ -9,11 +9,20 @@ import UIKit
 
 class AnasayfaVC: UIViewController {
 
+    @IBOutlet weak var anasayfaLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        anasayfaLabel.text = "Hoşgeldin!"
     }
 
 
+    @IBAction func yapButton(_ sender: Any) {
+        anasayfaLabel.text = "Merhaba!"
+        
+    }
+    @IBAction func baslaButton(_ sender: Any) {
+        performSegue(withIdentifier: "anasayfaToOyunEkrani", sender: nil)
+        
+    }
 }
 

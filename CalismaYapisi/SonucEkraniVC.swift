@@ -9,6 +9,7 @@ import UIKit
 
 class SonucEkraniVC: UIViewController {
 
+    @IBOutlet weak var sonucEkraniLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,4 +17,9 @@ class SonucEkraniVC: UIViewController {
     }
     
 
+    @IBAction func kapatButton(_ sender: Any) {
+        
+        //bulunduğu sayfayı kapatır.
+        self.dismiss(animated: true)
+    }
 }

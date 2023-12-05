@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		029A4A202B1F90A900B9420A /* OyunEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A4A1F2B1F90A900B9420A /* OyunEkraniVC.swift */; };
+		029A4A222B1F90C000B9420A /* SonucEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A4A212B1F90C000B9420A /* SonucEkraniVC.swift */; };
 		02C175932B1E5ADE005F4993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C175922B1E5ADE005F4993 /* AppDelegate.swift */; };
 		02C175952B1E5ADE005F4993 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C175942B1E5ADE005F4993 /* SceneDelegate.swift */; };
-		02C175972B1E5ADE005F4993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C175962B1E5ADE005F4993 /* ViewController.swift */; };
+		02C175972B1E5ADE005F4993 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C175962B1E5ADE005F4993 /* AnasayfaVC.swift */; };
 		02C1759A2B1E5ADE005F4993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C175982B1E5ADE005F4993 /* Main.storyboard */; };
 		02C1759C2B1E5ADF005F4993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C1759B2B1E5ADF005F4993 /* Assets.xcassets */; };
 		02C1759F2B1E5ADF005F4993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C1759D2B1E5ADF005F4993 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		029A4A1F2B1F90A900B9420A /* OyunEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunEkraniVC.swift; sourceTree = "<group>"; };
+		029A4A212B1F90C000B9420A /* SonucEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkraniVC.swift; sourceTree = "<group>"; };
 		02C1758F2B1E5ADE005F4993 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C175922B1E5ADE005F4993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02C175942B1E5ADE005F4993 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02C175962B1E5ADE005F4993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02C175962B1E5ADE005F4993 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
 		02C175992B1E5ADE005F4993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02C1759B2B1E5ADF005F4993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02C1759E2B1E5ADF005F4993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				02C175922B1E5ADE005F4993 /* AppDelegate.swift */,
 				02C175942B1E5ADE005F4993 /* SceneDelegate.swift */,
-				02C175962B1E5ADE005F4993 /* ViewController.swift */,
+				02C175962B1E5ADE005F4993 /* AnasayfaVC.swift */,
+				029A4A1F2B1F90A900B9420A /* OyunEkraniVC.swift */,
+				029A4A212B1F90C000B9420A /* SonucEkraniVC.swift */,
 				02C175982B1E5ADE005F4993 /* Main.storyboard */,
 				02C1759B2B1E5ADF005F4993 /* Assets.xcassets */,
 				02C1759D2B1E5ADF005F4993 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C175972B1E5ADE005F4993 /* ViewController.swift in Sources */,
+				02C175972B1E5ADE005F4993 /* AnasayfaVC.swift in Sources */,
+				029A4A222B1F90C000B9420A /* SonucEkraniVC.swift in Sources */,
+				029A4A202B1F90A900B9420A /* OyunEkraniVC.swift in Sources */,
 				02C175932B1E5ADE005F4993 /* AppDelegate.swift in Sources */,
 				02C175952B1E5ADE005F4993 /* SceneDelegate.swift in Sources */,
 			);
