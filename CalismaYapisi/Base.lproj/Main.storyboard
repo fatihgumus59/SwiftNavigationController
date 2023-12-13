@@ -94,6 +94,12 @@
                                     <action selector="bitirButton:" destination="euI-Ia-ojm" eventType="touchUpInside" id="9Ts-6H-9yS"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lf7-Gm-lgd">
+                                <rect key="frame" x="186.5" y="254" width="41.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K3v-vE-0bX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -103,7 +109,9 @@
                             <constraint firstItem="BTN-TC-0Am" firstAttribute="centerX" secondItem="BVz-E5-pj1" secondAttribute="centerX" id="CYP-v5-7Q4"/>
                             <constraint firstItem="BTN-TC-0Am" firstAttribute="top" secondItem="K3v-vE-0bX" secondAttribute="top" constant="50" id="FVo-pB-cN2"/>
                             <constraint firstItem="K3v-vE-0bX" firstAttribute="bottom" secondItem="F3X-Lm-0Oz" secondAttribute="bottom" constant="100" id="HVV-9D-ykh"/>
+                            <constraint firstItem="Lf7-Gm-lgd" firstAttribute="centerX" secondItem="BVz-E5-pj1" secondAttribute="centerX" id="bOJ-4w-tLh"/>
                             <constraint firstItem="BTN-TC-0Am" firstAttribute="leading" secondItem="K3v-vE-0bX" secondAttribute="leading" constant="32" id="d4Z-gK-gQj"/>
+                            <constraint firstItem="Lf7-Gm-lgd" firstAttribute="top" secondItem="BTN-TC-0Am" secondAttribute="bottom" constant="57" id="hfu-pQ-tdQ"/>
                             <constraint firstItem="F3X-Lm-0Oz" firstAttribute="centerX" secondItem="BVz-E5-pj1" secondAttribute="centerX" id="jh4-Ny-lRG"/>
                             <constraint firstItem="K3v-vE-0bX" firstAttribute="trailing" secondItem="BTN-TC-0Am" secondAttribute="trailing" constant="32" id="rj6-28-loU"/>
                         </constraints>
@@ -112,6 +120,7 @@
                         <barButtonItem key="backBarButtonItem" title="Geri" id="OM0-qF-VUB"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="kisiBilgiLabel" destination="Lf7-Gm-lgd" id="mce-TZ-zm8"/>
                         <outlet property="oyunEkraniLabel" destination="BTN-TC-0Am" id="SGV-ke-QQc"/>
                         <segue destination="2bW-jH-1A4" kind="presentation" identifier="oyunEkraniToSonucEkrani" id="M8K-DB-AWF"/>
                     </connections>

@@ -8,12 +8,21 @@
 import UIKit
 
 class OyunEkraniVC: UIViewController {
+    
+    var kisi: Kisiler?
 
+    @IBOutlet weak var kisiBilgiLabel: UILabel!
     @IBOutlet weak var oyunEkraniLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if let k = kisi{
+            
+            kisiBilgiLabel.text = "Ad : \(k.ad!)\nYaş : \(k.yas!)\nBoy : \(k.boy!)\nBekar : \(k.bekar!)"
+        }
+        
+ 
     }
     
     @IBAction func geriButton(_ sender: Any) {
