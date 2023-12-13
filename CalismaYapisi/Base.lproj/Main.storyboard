@@ -54,7 +54,20 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Gc-c9-3hj" secondAttribute="trailing" constant="32" id="uLm-TU-TyQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="mXm-3t-WK9"/>
+                    <navigationItem key="navigationItem" id="mXm-3t-WK9">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Ekle" image="plus.app" catalog="system" id="mHl-vB-e2Q">
+                                <connections>
+                                    <action selector="addTopBarButton:" destination="BYZ-38-t0r" id="Cy7-uz-o80"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Sil" image="minus.square" catalog="system" id="jMX-Nm-Hb4">
+                                <connections>
+                                    <action selector="deleteTopBarButton:" destination="BYZ-38-t0r" id="Epl-3L-1dD"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                     <connections>
                         <outlet property="anasayfaLabel" destination="3Gc-c9-3hj" id="1qs-f1-b0Y"/>
                         <segue destination="euI-Ia-ojm" kind="show" identifier="anasayfaToOyunEkrani" id="Ksb-t7-GqH"/>
@@ -191,6 +204,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="minus.square" catalog="system" width="128" height="114"/>
+        <image name="plus.app" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

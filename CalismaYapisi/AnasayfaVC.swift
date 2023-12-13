@@ -42,5 +42,11 @@ class AnasayfaVC: UIViewController {
             
         }
     }
+    @IBAction func addTopBarButton(_ sender: Any) {
+        print("Başarıyle Eklendi.")
+    }
+    @IBAction func deleteTopBarButton(_ sender: Any) {
+        print("Başarıyla Silindi.")
+    }
 }
 
